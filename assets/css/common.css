@@ -1,0 +1,64 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    margin: -1px;
+}
+
+.inner{width: 1400px; margin: 0 auto;}
+
+.footer .group-bottom-info .sns-list a::before,
+.header .btn-menu::after,
+.footer .link-youtube::after,
+.footer .link-naver::after,
+.footer .link-insta::after,
+.footer .link-facebook::after,
+.footer .link-livart::after{
+    background-image: url(	https://static.hyundailivart.co.kr/assets/images/sprites/icon.png?ver=2023/31/26);
+    background-size: 764px 721px;
+    background-repeat: no-repeat;
+}
+/* *{
+    cursor: none;
+}
+.cursor {
+    position: fixed;
+    z-index: 100;
+    border: 4px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    pointer-events: none;
+} */
+/*  
+
+[class*="swiper-button"]{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    background-color: #202020;
+    border-radius: 50%;
+    color: #fff;
+    opacity: 20%;
+}
+
+[class*="swiper-button"]:hover{
+    width: 70px;
+    height: 70px;
+    background-color: #202020;
+    border-radius: 50%;
+    color: #fff;
+    opacity: 100%;
+}
+[class*="swiper-button"]::after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    font-size: 22px;
+}
+
+*/
